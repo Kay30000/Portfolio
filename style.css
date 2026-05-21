@@ -1,1 +1,155 @@
-/* Add you CSS here */
+/* Page colors */
+html {
+  scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fff3e0;
+}
+
+/* Navigation bar */
+.top-nav {
+	background-color: #ffcc80;
+	padding: 16px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+/* Navigation buttons */
+.nav-button {
+	background-color: #e65100;
+	color: white;
+	text-decoration: none;
+	padding: 10px 18px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+.nav-button:hover {
+	background-color: #bf360c;
+}
+
+.myself {
+	margin: 40px auto 0;
+	text-align: center;
+	color: #bf360c;
+}
+
+.photo-circle {
+	width: 240px;
+	height: 240px;
+	margin: 0 auto 16px;
+	background-color: #ffe0b2;
+	border: 6px solid #bf360c;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.photo-circle img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.about {
+	margin: 40px auto;
+	text-align: center;
+	background-color: #ffd28e;
+	padding: 60px 24px;
+	max-width: 900px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.abt_me_title {
+  color: #bf360c;
+	text-align: center;
+	margin: 0 0 12px 0;
+
+}
+
+.skills_title {
+  color: #bf360c;
+	text-align: center;
+}
+
+.skills {
+	color: #bf360c;
+	text-align: center;
+	background-color: #fff0e0;
+	padding: 36px 20px;
+	margin: 20px auto;
+	border-radius: 6px;
+	max-width: 900px;
+}
+
+.projects {
+  color: #bf360c;
+  text-align: center;
+}
+
+.projects {
+	color: #bf360c;
+	text-align: center;
+}
+
+.project_title {
+	color: #bf360c;
+	text-align: center;
+	background-color: #ffe6c9;
+	padding: 36px 20px;
+	margin: 20px auto;
+	border-radius: 6px;
+	max-width: 900px;
+}
+
+.contacts {
+  color: #bf360c;
+  text-align: center;
+}
+
+.contacts {
+	color: #bf360c;
+	text-align: center;
+}
+
+.contact_title {
+	color: #bf360c;
+	text-align: center;
+	background-color: #ffe0b2;
+	padding: 36px 20px;
+	margin: 20px auto;
+	border-radius: 6px;
+	max-width: 900px;
+}
+
+/* Center list blocks while keeping items left-aligned */
+.skills ul,
+.project_title ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px auto 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.body_page {
+  position: relative; /* Essential for positioning the background */
+}
+
+/* .body_page::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url(img/tablet-coffee.jpg);
+  background-size: cover;
+  opacity: 0.3; 
+  z-index: -1;   
+} */
